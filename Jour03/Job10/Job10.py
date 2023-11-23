@@ -1,5 +1,7 @@
-def time_to_text(heure,minute):
-    print(heure,"heures et ", minute ,"minutes")
-    
-    
-time_to_text(3, 40)
+def nombre(n):
+    if n>0 and n%2==0:
+        print("pair")
+    elif n>0 and n%2!=0:
+        print("impair")    
+
+nombre(3)       
