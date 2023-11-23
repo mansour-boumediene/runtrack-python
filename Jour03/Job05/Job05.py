@@ -1,14 +1,15 @@
-def fonction(Type,Saison):
-    if Type == "fruits" and Saison == "hiver":
-        print("orange,mandarine,kiwi")
+def calcule(num1,operator,num2):
+    if operator == "+":
+        return num1 + num2
+    if operator == "-":
+        return num1 - num2
+    if operator == "/":
+        return num1 / num2
+    if operator == "*":
+        return num1 * num2
+    if operator == "%":
+        return num1 % num2
     
-    elif Type == "fruits" and Saison == "ete":
-        print("pomme,fraise,cassis")
-    
-    elif Type == "legume" and Saison == "hiver":
-        print("carotte,topinambour,endive")
-    
-    elif Type == "legume" and Saison == "ete":
-        print("artichaud,aubergine,navet")
-    
-print(fonction("legume","hiver"))
+a=calcule(50, "+", 8)
+print(a)
+  
